@@ -1,0 +1,18 @@
+.footer {
+    margin: 30px;
+    text-align: center;
+    color: black;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: teal;
+}
+
+.footer__link:hover {
+    color: rgb(9, 86, 86);
+}
+
+.footer__link:active {
+    color: rgb(160, 75, 36);
+}
