@@ -1,5 +1,5 @@
 .list {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     list-style: none;
 }
@@ -10,7 +10,7 @@
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ededed;
+    border-bottom: 2px solid #ddd;
     word-break: break-all;
 }
 

@@ -13,8 +13,9 @@
 
 .form__input {
     padding: 10px;
-    border: 1px solid #ededed;
+    border: 2px solid #ddd;
     min-width: 100%;
+    font-size: 18px;
 }
 
 .form__button {
@@ -22,6 +23,7 @@
     color: white;
     border: none;
     min-width: 100%;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
