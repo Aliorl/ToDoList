@@ -1,7 +1,7 @@
 .form {
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap: 30px;
+    grid-gap: 20px;
     padding: 20px;
 }
 
@@ -13,7 +13,7 @@
 
 .form__input {
     padding: 10px;
-    border: 1px solid #eee;
+    border: 1px solid #ededed;
     min-width: 100%;
 }
 
@@ -27,6 +27,7 @@
 @media (max-width: 768px) {
     .form__button {
         max-width: 100%;
+        min-height: 30px;
     }
 }
 

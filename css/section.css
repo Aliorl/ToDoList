@@ -1,13 +1,13 @@
 .section {
     background-color: white;
     box-shadow: 0 0 6px #eee;
-    margin: 20px 0;
+    margin: 10px 0;
     min-width: 100px;
 }
 
 .section__header {
     padding: 20px;
     font-size: 22px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ededed;
     margin: 0;
     }
