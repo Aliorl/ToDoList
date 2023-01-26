@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 30px;
+    padding: 20px;
 }
 
-@media (max-width: 767px) {
-    .form{
+@media (max-width: 768px) {
+    .form {
         grid-template-columns: 1fr;
     }
 }
@@ -13,12 +14,20 @@
 .form__input {
     padding: 10px;
     border: 1px solid #eee;
+    min-width: 100%;
 }
 
 .form__button {
     background-color: teal;
     color: white;
     border: none;
+    min-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .form__button {
+        max-width: 100%;
+    }
 }
 
 .form__button:hover {

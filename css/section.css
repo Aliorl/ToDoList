@@ -2,6 +2,7 @@
     background-color: white;
     box-shadow: 0 0 6px #eee;
     margin: 20px 0;
+    min-width: 100px;
 }
 
 .section__header {
@@ -10,7 +11,3 @@
     border-bottom: 1px solid #eee;
     margin: 0;
     }
-
-.section__container {
-    padding: 20px;
-}
