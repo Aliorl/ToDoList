@@ -1,5 +1,5 @@
 .list {
-    padding: 20px;
+    padding: 0;
     margin: 0;
     list-style: none;
 }
@@ -10,7 +10,7 @@
     grid-gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 1px solid #ddd;
     word-break: break-all;
 }
 
@@ -27,16 +27,16 @@
     cursor: pointer;
 }
 
-.list__button--done {
+.list__button--toggleDone {
     background-color: rgb(12, 131, 12);
 }
 
-.list__button--done:hover {
+.list__button--toggleDone:hover {
     background-color: rgb(15, 100, 15);
 }
 
-.list__button--done:active {
-    background-color: rgb(51, 111, 208);
+.list__button--toggleDone:active {
+    background-color: rgb(38, 164, 38);
 }
 
 .list__button--remove {
@@ -48,5 +48,5 @@
 }
 
 .list__button--remove:active {
-    background-color: rgb(51, 111, 208);
+    background-color: rgb(202, 71, 71);
 }
