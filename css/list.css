@@ -18,6 +18,10 @@
     text-decoration: line-through;
 }
 
+.list__item--hidden {
+    display: none;
+}
+
 .list__button {
     border: none;
     color: white;
@@ -25,6 +29,8 @@
     height: 30px;
     padding: 0;
     cursor: pointer;
+    transition: background 1s, transform 3s;
+    transform-origin: right bottom;
 }
 
 .list__button--toggleDone {
@@ -33,6 +39,7 @@
 
 .list__button--toggleDone:hover {
     background-color: rgb(15, 100, 15);
+    transform: scale(1.05);
 }
 
 .list__button--toggleDone:active {
@@ -45,6 +52,7 @@
 
 .list__button--remove:hover {
     background-color: rgb(136, 9, 9);
+    transform: scale(1.05);
 }
 
 .list__button--remove:active {
