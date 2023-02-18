@@ -15,23 +15,20 @@
     padding: 20px;
 }
 
-.section__headerWithButtons {
+.section__headerSection {
     display: grid;
     grid-template-columns: 1fr auto;
-    align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid #ddd;
-};
-
-@media (max-width: 767px) {
-    .section__headerWithButtons {
-        grid-template-columns: 1fr;
-    }
 }
 
 @media (max-width: 767px) {
+    .section__headerSection {
+        grid-template-columns: 1fr;
+    }
+
     .section__buttons {
         display: grid;
+        grid-template-columns: 1fr;
         align-items: center;
     }
 }
