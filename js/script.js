@@ -28,7 +28,7 @@
         tasks = [
             ...tasks.slice(0, taskIndex),
             {
-                content: tasks[taskIndex].content,
+                ...tasks[taskIndex],
                 done: !tasks[taskIndex].done
             },
             ...tasks.slice(taskIndex + 1),
@@ -37,8 +37,11 @@
     };
 
     const toggleAllTasksDone = () => {
-        tasks = tasks.map((task) =>
-            ({ ...task, done: true }));
+        tasks = tasks.map((task) => ({
+            ...task,
+            done: true
+        }));
+
         render();
     };
 
